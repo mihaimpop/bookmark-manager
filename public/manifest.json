@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Manager",
+  "author": "Mihai Pop",
+  "version": "1.1.1",
+  "description": "Replace new tab screen with GitHub trending projects.",
+  "incognito": "split",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "bookmarks"
+  ],
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+}

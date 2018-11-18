@@ -1,2 +1,1 @@
-# github-trending-extension
-Created with CodeSandbox
+Bookmark Manager
